@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b492eff-a582-446c-96e6-9dc43cca68e1" name="Default" comment="ADDED HEROKU Deployment Setting">
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoMedicalStoreManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoMedicalStoreManagementSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/37586ce0-17cc-4813-b4fa-1d888c84b784.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/37586ce0-17cc-4813-b4fa-1d888c84b784.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoMedicalStoreManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMedicalStoreManagementSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8b492eff-a582-446c-96e6-9dc43cca68e1" name="Default" comment="commit_2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +140,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -224,6 +223,7 @@
       <workItem from="1611749485251" duration="4622000" />
       <workItem from="1653484523254" duration="221000" />
       <workItem from="1653484751452" duration="113000" />
+      <workItem from="1653485353221" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Added ER Diagram and Database Models in models.py">
       <created>1594547446120</created>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610111453591</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit_2">
+      <created>1653486304066</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653486304066</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -470,7 +477,8 @@
     <MESSAGE value="Fixed Changes" />
     <MESSAGE value="Added Chart API in Home" />
     <MESSAGE value="ADDED HEROKU Deployment Setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED HEROKU Deployment Setting" />
+    <MESSAGE value="commit_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit_2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/enums.py">
