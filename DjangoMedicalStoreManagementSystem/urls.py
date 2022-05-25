@@ -20,7 +20,7 @@ from rest_framework import routers
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from DjangoMedicalApp import views
-from DjangoMedicalApp.views import CompanyNameViewSet, CompanyOnlyViewSet,MedicineByNameViewSet
+from DjangoMedicalApp.views import CompanyNameViewSet, CompanyOnlyViewSet, MedicineByNameViewSet
 from DjangoMedicalStoreManagementSystem import settings
 
 router=routers.DefaultRouter()
@@ -34,8 +34,6 @@ router.register("employee_all_salary",views.EmployeeSalaryViewset,basename="empl
 router.register("generate_bill_api",views.GenerateBillViewSet,basename="generate_bill_api")
 router.register("customer_request",views.CustomerRequestViewset,basename="customer_request")
 router.register("home_api",views.HomeApiViewset,basename="home_api")
-
-import os
 
 urlpatterns = [
     path('admin/', admin.site.urls),
